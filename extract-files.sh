@@ -14,7 +14,7 @@ fi
 set -e
 
 # Required!
-export DEVICE=grus
+export DEVICE=pyxis
 export DEVICE_COMMON=sdm710-common
 export VENDOR=xiaomi
 

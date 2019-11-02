@@ -17,17 +17,17 @@
 # Inherit from sdm710-common
 -include device/xiaomi/sdm710-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/grus
+DEVICE_PATH := device/xiaomi/pyxis
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := grus
+TARGET_OTA_ASSERT_DEVICE := pyxis
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
 # Kernel
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := grus_defconfig
+TARGET_KERNEL_CONFIG := pyxis_defconfig
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
@@ -45,7 +45,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_USES_NQ_NFC := true
 
 # Inherit from the proprietary version
--include vendor/xiaomi/grus/BoardConfigVendor.mk
+-include vendor/xiaomi/pyxis/BoardConfigVendor.mk
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
