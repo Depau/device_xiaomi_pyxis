@@ -7,7 +7,7 @@
   },
   {
     "repository": "device_xiaomi_common",
-    "target_path": "device/xiaomi/common"
+    "target_path": "device/xiaomi/common",
     "remote": "pixel-devices",
     "branch": "pie"
   }
