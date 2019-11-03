@@ -3,12 +3,12 @@
     "repository": "Depau/device_xiaomi_sdm710-common",
     "target_path": "device/xiaomi/sdm710-common",
     "remote": "github",
-    "branch": "ten"
+    "revision": "ten"
   },
   {
     "repository": "device_xiaomi_common",
     "target_path": "device/xiaomi/common",
     "remote": "pixel-devices",
-    "branch": "pie"
+    "revision": "pie"
   }
 ]
