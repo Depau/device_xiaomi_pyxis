@@ -17,7 +17,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.displayfeature.histogram.enable=true \
     ro.eyecare.brightness.threshold=11 \
     ro.eyecare.brightness.level=5 \
-    ro.hist.brightness.threshold=7
+    ro.hist.brightness.threshold=7 \
+		vendor.display.enable_default_color_mode=1
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
